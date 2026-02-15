@@ -40,6 +40,56 @@ int main() {
 
 
 
+//WAP TO CHECK A NUMBER +VE -VE OR ZERO //
+
+#include <stdio.h>
+int main (){
+  int a;
+
+  printf("Enter the number [a]:");
+  scanf("%d",&a);
+
+if (a>0)
+ printf("a is positive");
+
+else if(a<0)
+ printf("a is negative");
+
+else if(a=0)
+ printf("a is zero");
+
+ return 0;
+
+}
+ 
+
+//WAP TO CHECK THE GIVEN CHARACTER IS UPPER CASE, LOWER CASE, NUMBER OR A SPECIAL CHARACTER//
+
+ #include <stdio.h>
+int main() {
+    char ch;
+
+    printf("Enter a character: ");
+    scanf("%c", &ch);
+
+    if (ch >= 'A' && ch <= 'Z') {
+        printf("Uppercase letter");
+    }
+    else if (ch >= 'a' && ch <= 'z') {
+        printf("Lowercase letter");
+    }
+    else if (ch >= '0' && ch <= '9') {
+        printf("Digit (Number)");
+    }
+    else {
+        printf("Special character");
+    }
+
+    return 0;
+}
+
+
+
 
 
 
