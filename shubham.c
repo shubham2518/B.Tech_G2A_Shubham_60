@@ -1,3 +1,4 @@
+//WAP TO FIND THE GREATER OF TWO NO. USING CONDITONAL OPERATOR//
 #include<stdio.h>
 int main () {
 
@@ -9,4 +10,5 @@ int main () {
   printf("\ngreater number=%d",max);
   
   return 0;
+
 }
