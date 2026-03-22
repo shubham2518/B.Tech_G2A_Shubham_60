@@ -11,7 +11,7 @@ int main(){                         // n = RANGE LIMIT
   for (i=1; i<=n; i++){               // if i=3 then j=1,2,3
   count=0;                          // count represents how many times i is divisible
 
-      for (j=1; j<=i; j++){              
+      for (j=1; j<=i; j++){              //count=0 inside loop because we need fresh start for each number
         if (i%j==0){
           count++;
         }
