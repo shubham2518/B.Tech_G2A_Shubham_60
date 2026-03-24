@@ -20,3 +20,5 @@ int main(){
     }     
     return 0;
 }
+
+// if we want to print roll no.{index} of students whose marks is below 35 write [printf("%d ",i)]
