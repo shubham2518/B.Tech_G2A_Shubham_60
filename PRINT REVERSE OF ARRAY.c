@@ -48,7 +48,7 @@ for(i=0; i<n/2; i++)
 }
 printf("Reversed array : ");
 for(i=0; i<n; i++){
-   scanf("%d ",a[i]);
+   printf("%d ",a[i]);
 }
 
 return 0;
